@@ -1,0 +1,8 @@
+{
+    "ext": ".tsx,.ts,.css",
+    "ignore": [
+        "node_modules",
+        "dist"
+    ],
+    "exec": "$npm_execpath build && qode ./dist/main.cjs"
+}
